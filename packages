@@ -2,3 +2,9 @@ mgcv
 blockr-org/blockr
 blockr-org/blockr.extra
 blockr-org/blockr.data
+blockr-org/blockr.falcon
+blockr-org/blockr.ggplot2
+blockr-org/blockr.pharmaverseadam
+blockr-org/blockr.pharmaversesdtm
+blockr-org/blockr.ggstatsplot
+blockr-org/blockr.clinical.timelines
