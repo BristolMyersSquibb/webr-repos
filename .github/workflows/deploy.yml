@@ -9,10 +9,6 @@ on:
 
 name: Build and deploy wasm R package repository
 
-env:
-  # This allows installation of private github repos
-  GITHUB_PAT: ${{ secrets.PAT }}
-
 jobs:
   # Reads `./packages` for package references to put
   # into a CRAN-like repository hosted on GitHub pages
@@ -20,6 +16,9 @@ jobs:
     uses: r-wasm/actions/.github/workflows/deploy-cran-repo.yml@v1
     with:
       webr-image: "ghcr.io/r-wasm/webr:v0.3.3"
+    env:
+      # This allows installation of private github repos
+      GITHUB_PAT: ${{ secrets.PAT }}
     permissions:
       # To download GitHub Packages within action
       repository-projects: read
