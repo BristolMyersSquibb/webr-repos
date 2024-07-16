@@ -1,4 +1,5 @@
 mgcv
+broom.helpers
 tern
 cards
 cardx
@@ -12,6 +13,10 @@ rlistings
 rtables
 tfrmt
 Tplyr
+lubridate
+purrr
+tidyr
+pharmaverseadam
 pharmaverse/cardinal
 blockr-org/blockr
 blockr-org/blockr.extra
