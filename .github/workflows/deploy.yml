@@ -14,8 +14,6 @@ jobs:
   # into a CRAN-like repository hosted on GitHub pages
   deploy-cran-repo:
     uses: r-wasm/actions/.github/workflows/deploy-cran-repo.yml@v1
-    with:
-      webr-image: "ghcr.io/r-wasm/webr:v0.3.3"
     permissions:
       # To download GitHub Packages within action
       repository-projects: read
